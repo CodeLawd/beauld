@@ -63,6 +63,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 5px 2px 5px rgb(131, 131, 131);
 }
 #header .logo {
   font-size: 30px;
@@ -81,7 +83,8 @@ h6 {
 }
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(255, 255, 255, 0.9);
+  color: red;
   padding: 12px 0;
 }
 
@@ -93,6 +96,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  /* background-color: #fff; */
 }
 .navbar ul {
   margin: 0;
@@ -114,7 +118,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   padding: 0 4px;
   white-space: nowrap;
@@ -150,7 +154,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #fff;
+  color: var(--brand-color);
 }
 .navbar .dropdown ul {
   display: block;
